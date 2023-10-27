@@ -1,0 +1,41 @@
+.friendList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.item {
+  background-color: var(--main-white);
+  border: 1px solid var(--main-gray);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin-right: 40px;
+  object-fit: cover;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: var(--main-gray);
+}

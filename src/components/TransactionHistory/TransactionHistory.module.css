@@ -1,0 +1,32 @@
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.transaction-history {
+  width: 400px;
+  margin: 30px auto 30px auto;
+  border: 1px solid var(--main-gray);
+  border-radius: 10px;
+}
+
+th {
+  width: 200px;
+  font-weight: 400;
+  color: var(--main-white);
+  padding: 15px 15px;
+  background-color: var(--gray);
+  text-align: center;
+}
+td {
+  text-align: center;
+  color: var(--black);
+  padding: 15px 15px;
+  border: solid var(--main-gray);
+  border-radius: 10px;
+}
+tr:nth-child(2n) {
+  background: var(--main-white);
+}
